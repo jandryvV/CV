@@ -6,10 +6,8 @@
   user-select: none;
 }
 
-
-
 body {
-  background-image: linear-gradient(rgb(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925)), url('../img/wallpaper.jpg');
+  background-image: linear-gradient(#000000ec, #000000ec), url('../img/wallpaper.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -20,7 +18,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -31,7 +28,7 @@ body {
   width: 1000px;
   height: 500px;
   max-width: 100%;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 40px #000000cc;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -39,17 +36,14 @@ body {
 
 .github-icon:hover i {
   color: #24292E;
-  /* Color de GitHub o el que tú quieras */
 }
 
 .mail-icon:hover i {
   color: #24A1DE;
-  /* Color de Gmail o el que tú quieras */
 }
 
 .whatsapp-icon:hover i {
   color: #25D366;
-  /* Color de WhatsApp o el que tú quieras */
 }
 
 .sidebar {
@@ -87,10 +81,9 @@ body {
 
 .active-icon {
   color: #ff3333;
-  transform: scale(1.2);
+  transform: scale(1.4);
   transition: transform 0.3s ease;
 }
-
 
 .main-content {
   flex: 1;
@@ -102,12 +95,9 @@ body {
   overflow: auto;
 }
 
-
-
 .main-content::-webkit-scrollbar {
   display: none;
 }
-
 
 .profile-section {
   display: flex;
@@ -150,7 +140,6 @@ body {
 
 a {
   color: inherit;
-  /* toma el color del padre */
   text-decoration: none;
 }
 
@@ -163,7 +152,6 @@ a {
   color: #ffffff;
 }
 
-/* Información de About Me */
 .main-section {
   flex: 1;
   padding: 40px;
@@ -227,7 +215,6 @@ li::marker {
   color: #ff3333;
 }
 
-
 .service-icon {
   width: 50px;
   height: 50px;
@@ -243,7 +230,6 @@ li::marker {
   text-align: center;
 }
 
-/* Estilos para las secciones de contenido */
 .content-section {
   width: 100%;
 }
@@ -339,7 +325,6 @@ li::marker {
   margin: 0 auto;
 }
 
-/*asdasdsa*/
 .references-table {
   width: 100%;
   border-collapse: separate;
