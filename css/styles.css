@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(#000000ec, #000000ec), url('../img/wallpaper.jpg');
+  background-image: linear-gradient(#000000ec, #000000), url('../img/wallpaper.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -56,23 +56,17 @@ body {
   position: relative;
   z-index: 10;
   justify-content: center;
-
-}
-
-.card-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
 }
 
 .nav-icon {
-  margin: 20px 0;
+  margin: 20px;
   width: 22px;
   height: 22px;
   color: #666;
   cursor: pointer;
   transition: color 0.3s;
+  justify-content: center;
+  display: flex;
 }
 
 .nav-icon:hover {
@@ -88,10 +82,6 @@ body {
 .main-content {
   flex: 1;
   background-color: #0a0a0a;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
   overflow: auto;
 }
 
@@ -102,7 +92,6 @@ body {
 .profile-section {
   display: flex;
   flex-direction: column;
-  padding: 40px;
   width: 300px;
   background-color: #222;
   background-image: linear-gradient(#00000000, #000000e1), url('../img/picture.jpg');
@@ -110,10 +99,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
-
 
 .name-title {
   font-size: 26px;
@@ -132,15 +119,8 @@ body {
   justify-content: center;
 }
 
-*:focus {
-  outline: none;
-  caret-color: transparent;
-}
-
-
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 .social-icon {
@@ -149,14 +129,12 @@ a {
   margin-right: auto;
   cursor: pointer;
   transition: color 0.3s;
-  color: #ffffff;
 }
 
 .main-section {
   flex: 1;
   padding: 40px;
   background-color: #0a0a0a;
-  min-height: 100%;
 }
 
 .section-title {
@@ -183,14 +161,10 @@ a {
   margin-bottom: 30px;
 }
 
-.highlight {
-  color: #ff3333;
-}
-
 .services-container {
   display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .service-card {
@@ -208,30 +182,11 @@ a {
   color: #666;
   font-size: 16px;
   margin: 0 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 li::marker {
   color: #ff3333;
-}
-
-.service-icon {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 15px;
-  color: #ff3333;
-  font-size: 50px;
-}
-
-.card-description {
-  color: #666;
-  font-size: 16px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.content-section {
-  width: 100%;
 }
 
 .skill {
@@ -276,7 +231,7 @@ li::marker {
 .card {
   background-color: #1c1c1c;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 
@@ -297,9 +252,10 @@ li::marker {
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .card-date {
@@ -307,14 +263,15 @@ li::marker {
   background-color: #ff3b3b;
   color: white;
   font-size: 12px;
-  padding: 2px 8px;
+  padding: 2px 10px;
   margin-bottom: 10px;
 }
 
 .card-description {
-  font-size: 14px;
-  color: #b0b0b0;
-  line-height: 1.4;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+  text-align: center;
 }
 
 .cards-grid {
@@ -333,10 +290,9 @@ li::marker {
 
 .references-table th {
   text-align: center;
-  padding: 10px auto;
+  padding: auto;
   color: #ff3b3b;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
 }
 
 .references-table td {
